@@ -26,6 +26,7 @@ cd RbxBoostX
 mkdir build && cd build
 cmake ..
 cmake --build . --config Release
+```
 
 ## Run
 1. Start Roblox.
