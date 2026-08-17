@@ -4,6 +4,7 @@
 
 RbxBoostX applies small runtime tweaks to reduce input lag and smooth framerate on older CPUs and integrated GPUs. Built for gamers who can't upgrade their rigs.
 
+
 ## Why?
 Roblox runs heavier than it should. This tool attempts to:
 - Reduce render thread priority spikes
