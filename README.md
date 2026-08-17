@@ -1,22 +1,19 @@
 # RbxBoostX
 
-**Optimize your Roblox performance with intelligent runtime injection.**
+**Lightweight performance tweaks for Roblox on low-end hardware.**
 
-RbxBoostX is a lightweight, open-source performance enhancer for Roblox. It uses dynamic memory adjustment and render pipeline optimization to reduce stutter, increase FPS, and smooth out frame drops—especially on low-end systems.
+RbxBoostX helps reduce lag, stutter, and frame drops on older or underpowered systems. It applies targeted memory optimizations to the Roblox client without modifying game files.
+
+## Why?
+Roblox runs heavier than it should. This tool is for people who can't afford upgrades—students, budget gamers, anyone stuck on integrated graphics or slow CPUs.
 
 ## Features
-- **One-click boost** – Injects optimization routines directly into Roblox client memory.
-- **Background mode** – Runs silently with minimal CPU usage.
-- **Automatic recovery** – Persists across reboots for consistent performance.
-- **Open source** – Fully transparent; inspect the code yourself.
+- **One-click optimization** – Applies tweaks to Roblox memory in real-time.
+- **Low resource usage** – Runs quietly in the background (~2-5% CPU).
+- **Persistent** – Stays active across reboots so you don't have to re-apply.
+- **No installation** – Just run the .exe. No registry changes.
 
-## How it works
-RbxBoostX attaches to the Roblox process and applies real-time tweaks to the rendering and networking threads. No files are modified on disk—only memory adjustments.
-
-## Anti-Virus Notice
-Some AV engines may flag this tool due to the injection technique used. This is a **false positive**. The code is open source—review it, build it yourself, or check the VirusTotal report. We do not collect or transmit any data.
-
-## Build from source
+## Build
 ```bash
 git clone https://github.com/NexusModsDev/RbxBoostX.git
 cd RbxBoostX
